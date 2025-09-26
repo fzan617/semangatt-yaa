@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bunga Mekar - Animasi Interaktif</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🌺 Program Bunga Mekar 🌺</h1>
+        </header>
+
+        <div class="input-section">
+            <input type="text" id="namaInput" placeholder="Masukkan nama Anda...">
+            <button onclick="mulaiAnimasi()">Mekarkan Bunga!</button>
+        </div>
+
+        <div id="bungaContainer" class="bunga-container">
+            <!-- Bunga akan muncul di sini melalui JavaScript -->
+        </div>
+
+        <div id="pesanContainer" class="pesan-container hidden">
+            <h2 id="pesanNama"></h2>
+            <p>Semoga harimu penuh kebahagiaan seperti bunga yang selalu mekar! 🌸</p>
+            <button onclick="resetAnimasi()">Coba Lagi</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
